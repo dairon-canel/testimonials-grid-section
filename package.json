@@ -1,0 +1,25 @@
+{
+  "name": "frontend-mentor-tlp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npx tailwindcss -i ./src/input-style.css -o ./public/output-style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dairon-canel/frontend-mentor-tlp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dairon-canel/frontend-mentor-tlp/issues"
+  },
+  "homepage": "https://github.com/dairon-canel/frontend-mentor-tlp#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.1"
+  }
+}
