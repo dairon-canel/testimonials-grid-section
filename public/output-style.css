@@ -565,72 +565,16 @@ video {
   position: relative;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .right-6 {
   right: 1.5rem;
-}
-
-.-z-10 {
-  z-index: -10;
-}
-
-.z-10 {
-  z-index: 10;
 }
 
 .z-20 {
   z-index: 20;
 }
 
-.col-start-1 {
-  grid-column-start: 1;
-}
-
-.col-start-3 {
-  grid-column-start: 3;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
-.col-start-4 {
-  grid-column-start: 4;
-}
-
-.col-end-3 {
-  grid-column-end: 3;
-}
-
-.col-end-4 {
-  grid-column-end: 4;
-}
-
-.col-end-2 {
-  grid-column-end: 2;
-}
-
-.col-end-5 {
-  grid-column-end: 5;
-}
-
-.row-start-1 {
-  grid-row-start: 1;
-}
-
-.row-start-2 {
-  grid-row-start: 2;
-}
-
-.row-end-2 {
-  grid-row-end: 2;
-}
-
-.row-end-3 {
-  grid-row-end: 3;
+.z-10 {
+  z-index: 10;
 }
 
 .grid {
@@ -641,50 +585,8 @@ video {
   min-height: 100vh;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-\[1\.5\] {
-  gap: 1.5;
-}
-
-.gap-\[1\.5rem\] {
-  gap: 1.5rem;
-}
-
 .gap-y-\[1\.5rem\] {
   row-gap: 1.5rem;
-}
-
-.gap-x-\[1\.6rem\] {
-  -moz-column-gap: 1.6rem;
-       column-gap: 1.6rem;
-}
-
-.gap-x-\[1\.65rem\] {
-  -moz-column-gap: 1.65rem;
-       column-gap: 1.65rem;
-}
-
-.gap-x-\[1\.7rem\] {
-  -moz-column-gap: 1.7rem;
-       column-gap: 1.7rem;
-}
-
-.gap-x-\[1\.75rem\] {
-  -moz-column-gap: 1.75rem;
-       column-gap: 1.75rem;
-}
-
-.gap-x-\[1\.8rem\] {
-  -moz-column-gap: 1.8rem;
-       column-gap: 1.8rem;
-}
-
-.gap-x-\[2rem\] {
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
 }
 
 .gap-x-\[1\.9rem\] {
@@ -694,11 +596,6 @@ video {
 
 .place-self-center {
   place-self: center;
-}
-
-.border-moderateViolet {
-  --tw-border-opacity: 1;
-  border-color: hsl(263 55% 52% / var(--tw-border-opacity));
 }
 
 .border-white {
@@ -711,8 +608,18 @@ video {
   border-color: hsl(0 0% 81% / var(--tw-border-opacity));
 }
 
+.border-moderateViolet {
+  --tw-border-opacity: 1;
+  border-color: hsl(263 55% 52% / var(--tw-border-opacity));
+}
+
 .border-opacity-50 {
   --tw-border-opacity: 0.5;
+}
+
+.bg-lightGrayishBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(210 46% 95% / var(--tw-bg-opacity));
 }
 
 .bg-moderateViolet {
@@ -725,11 +632,6 @@ video {
   background-color: hsl(217 19% 35% / var(--tw-bg-opacity));
 }
 
-.bg-lightGray {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 81% / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 100% 100% / var(--tw-bg-opacity));
@@ -740,27 +642,9 @@ video {
   background-color: hsl(219 29% 14% / var(--tw-bg-opacity));
 }
 
-.bg-lightGrayishBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(210 46% 95% / var(--tw-bg-opacity));
-}
-
-.bg-opacity-70 {
-  --tw-bg-opacity: 0.7;
-}
-
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-\[4\.5rem\] {
@@ -768,34 +652,8 @@ video {
   padding-bottom: 4.5rem;
 }
 
-.px-\[1\.5rem\] {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pr-\[1rem\] {
   padding-right: 1rem;
-}
-
-.pr-\[1\.1rem\] {
-  padding-right: 1.1rem;
-}
-
-.pr-\[0\.3rem\] {
-  padding-right: 0.3rem;
 }
 
 .pr-\[0\.2rem\] {
@@ -805,11 +663,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 100% 100% / var(--tw-text-opacity));
-}
-
-.text-veryDarkBlackishBlue {
-  --tw-text-opacity: 1;
-  color: hsl(219 29% 14% / var(--tw-text-opacity));
 }
 
 .text-veryDarkGrayishBlue {
@@ -823,10 +676,6 @@ video {
 
 .text-opacity-70 {
   --tw-text-opacity: 0.7;
-}
-
-.opacity-70 {
-  opacity: 0.7;
 }
 
 .transition {
@@ -856,34 +705,18 @@ body {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   color: white;
-  background: #000;
+  background: hsl(219, 29%, 14%);
 }
 
 .attribution a {
-  color: hsl(288, 89%, 65%);
+  color: hsl(263, 55%, 70%);
 }
 
 .attribution a:hover {
-  color: hsl(287, 70%, 91%);
+  color: hsl(263, 55%, 80%);
 }
 
 @media (min-width: 768px) {
-  .md\:right-9 {
-    right: 2.25rem;
-  }
-
-  .md\:right-\[3rem\] {
-    right: 3rem;
-  }
-
-  .md\:right-\[4rem\] {
-    right: 4rem;
-  }
-
-  .md\:right-\[5rem\] {
-    right: 5rem;
-  }
-
   .md\:right-\[5\.5rem\] {
     right: 5.5rem;
   }
@@ -936,38 +769,6 @@ body {
     grid-row-end: 3;
   }
 
-  .md\:mt-\[0\.8rem\] {
-    margin-top: 0.8rem;
-  }
-
-  .md\:mt-\[0\.5rem\] {
-    margin-top: 0.5rem;
-  }
-
-  .md\:max-w-\[60rem\] {
-    max-width: 60rem;
-  }
-
-  .md\:max-w-\[70rem\] {
-    max-width: 70rem;
-  }
-
-  .md\:max-w-\[68rem\] {
-    max-width: 68rem;
-  }
-
-  .md\:max-w-\[69rem\] {
-    max-width: 69rem;
-  }
-
-  .md\:max-w-\[69\.5rem\] {
-    max-width: 69.5rem;
-  }
-
-  .md\:max-w-\[72rem\] {
-    max-width: 72rem;
-  }
-
   .md\:max-w-\[72\.5rem\] {
     max-width: 72.5rem;
   }
@@ -976,47 +777,8 @@ body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:grid-rows-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:grid-rows-\[auto_auto\] {
     grid-template-rows: auto auto;
-  }
-
-  .md\:place-self-start {
-    place-self: start;
-  }
-
-  .md\:bg-moderateViolet {
-    --tw-bg-opacity: 1;
-    background-color: hsl(263 55% 52% / var(--tw-bg-opacity));
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .md\:px-\[1\.5rem\] {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .md\:pr-\[1\.3rem\] {
-    padding-right: 1.3rem;
-  }
-
-  .md\:pr-\[0\.8rem\] {
-    padding-right: 0.8rem;
-  }
-
-  .md\:pr-\[0\.3rem\] {
-    padding-right: 0.3rem;
-  }
-
-  .md\:pr-\[0\.4rem\] {
-    padding-right: 0.4rem;
   }
 
   .md\:pr-\[0\.5rem\] {
@@ -1025,10 +787,6 @@ body {
 
   .md\:pr-\[0\.6rem\] {
     padding-right: 0.6rem;
-  }
-
-  .md\:pr-\[1rem\] {
-    padding-right: 1rem;
   }
 }
 
@@ -1040,16 +798,8 @@ body {
   display: grid;
 }
 
-.\[\&\>section\>div\]\:grid-cols-2>section>div {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .\[\&\>section\>div\]\:grid-cols-\[auto_auto\]>section>div {
   grid-template-columns: auto auto;
-}
-
-.\[\&\>section\>div\]\:gap-4>section>div {
-  gap: 1rem;
 }
 
 .\[\&\>section\>div\]\:gap-x-4>section>div {
@@ -1065,80 +815,16 @@ body {
   order: 2;
 }
 
-.\[\&\>section\>h1\]\:mt-\[3rem\]>section>h1 {
-  margin-top: 3rem;
-}
-
-.\[\&\>section\>h1\]\:mt-\[2rem\]>section>h1 {
-  margin-top: 2rem;
-}
-
 .\[\&\>section\>h1\]\:mt-\[1rem\]>section>h1 {
   margin-top: 1rem;
-}
-
-.\[\&\>section\>h1\]\:mt-\[0\.9rem\]>section>h1 {
-  margin-top: 0.9rem;
-}
-
-.\[\&\>section\>h1\]\:mt-\[0\.85rem\]>section>h1 {
-  margin-top: 0.85rem;
-}
-
-.\[\&\>section\>h1\]\:px-\[0\.5rem\]>section>h1 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.\[\&\>section\>h1\]\:px-\[0\.3rem\]>section>h1 {
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
-}
-
-.\[\&\>section\>h1\]\:px-\[0\.2rem\]>section>h1 {
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-}
-
-.\[\&\>section\>h1\]\:pr-2>section>h1 {
-  padding-right: 0.5rem;
 }
 
 .\[\&\>section\>h1\]\:pl-\[0\.2rem\]>section>h1 {
   padding-left: 0.2rem;
 }
 
-.\[\&\>section\>h1\]\:pr-1>section>h1 {
-  padding-right: 0.25rem;
-}
-
-.\[\&\>section\>h1\]\:pr-\[1rem\]>section>h1 {
-  padding-right: 1rem;
-}
-
-.\[\&\>section\>h1\]\:pr-\[1\.5rem\]>section>h1 {
-  padding-right: 1.5rem;
-}
-
-.\[\&\>section\>h1\]\:pr-\[0\.5rem\]>section>h1 {
-  padding-right: 0.5rem;
-}
-
-.\[\&\>section\>h1\]\:pr-\[0\.4rem\]>section>h1 {
-  padding-right: 0.4rem;
-}
-
-.\[\&\>section\>h1\]\:pr-\[0\.3rem\]>section>h1 {
-  padding-right: 0.3rem;
-}
-
 .\[\&\>section\>h1\]\:pr-\[0\.35rem\]>section>h1 {
   padding-right: 0.35rem;
-}
-
-.\[\&\>section\>h1\]\:text-lg>section>h1 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .\[\&\>section\>h1\]\:text-xl>section>h1 {
@@ -1146,16 +832,8 @@ body {
   line-height: 1.75rem;
 }
 
-.\[\&\>section\>h1\]\:leading-\[1rem\]>section>h1 {
-  line-height: 1rem;
-}
-
 .\[\&\>section\>h1\]\:leading-\[1\.5rem\]>section>h1 {
   line-height: 1.5rem;
-}
-
-.\[\&\>section\>h1\]\:leading-\[1\.6rem\]>section>h1 {
-  line-height: 1.6rem;
 }
 
 .\[\&\>section\>blockquote\]\:order-3>section>blockquote {
@@ -1166,97 +844,8 @@ body {
   margin-top: 1rem;
 }
 
-.\[\&\>section\>blockquote\]\:px-\[0\.2rem\]>section>blockquote {
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-}
-
 .\[\&\>section\>blockquote\]\:pl-\[0\.2rem\]>section>blockquote {
   padding-left: 0.2rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[0\.5rem\]>section>blockquote {
-  padding-right: 0.5rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[0\.6rem\]>section>blockquote {
-  padding-right: 0.6rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[0\.7rem\]>section>blockquote {
-  padding-right: 0.7rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[0\.8rem\]>section>blockquote {
-  padding-right: 0.8rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[0\.9rem\]>section>blockquote {
-  padding-right: 0.9rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[1rem\]>section>blockquote {
-  padding-right: 1rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[1\.1rem\]>section>blockquote {
-  padding-right: 1.1rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[1\.08rem\]>section>blockquote {
-  padding-right: 1.08rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[1\.05rem\]>section>blockquote {
-  padding-right: 1.05rem;
-}
-
-.\[\&\>section\>blockquote\]\:pr-\[1\.03rem\]>section>blockquote {
-  padding-right: 1.03rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1rem\]>section>blockquote {
-  line-height: 1rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.2rem\]>section>blockquote {
-  line-height: 1.2rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.15rem\]>section>blockquote {
-  line-height: 1.15rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.145rem\]>section>blockquote {
-  line-height: 1.145rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.14rem\]>section>blockquote {
-  line-height: 1.14rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.138rem\]>section>blockquote {
-  line-height: 1.138rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.137rem\]>section>blockquote {
-  line-height: 1.137rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.136rem\]>section>blockquote {
-  line-height: 1.136rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.135rem\]>section>blockquote {
-  line-height: 1.135rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.133rem\]>section>blockquote {
-  line-height: 1.133rem;
-}
-
-.\[\&\>section\>blockquote\]\:leading-\[1\.131rem\]>section>blockquote {
-  line-height: 1.131rem;
 }
 
 .\[\&\>section\>blockquote\]\:leading-\[1\.13rem\]>section>blockquote {
@@ -1267,65 +856,13 @@ body {
   display: grid;
 }
 
-.\[\&\>section\]\:rounded-xl>section {
-  border-radius: 0.75rem;
-}
-
 .\[\&\>section\]\:rounded-lg>section {
   border-radius: 0.5rem;
-}
-
-.\[\&\>section\]\:p-5>section {
-  padding: 1.25rem;
-}
-
-.\[\&\>section\]\:p-6>section {
-  padding: 1.5rem;
-}
-
-.\[\&\>section\]\:px-\[5rem\]>section {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.\[\&\>section\]\:px-7>section {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.\[\&\>section\]\:px-8>section {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.\[\&\>section\]\:px-\[1\.8rem\]>section {
-  padding-left: 1.8rem;
-  padding-right: 1.8rem;
 }
 
 .\[\&\>section\]\:px-\[1\.85rem\]>section {
   padding-left: 1.85rem;
   padding-right: 1.85rem;
-}
-
-.\[\&\>section\]\:py-\[4rem\]>section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.\[\&\>section\]\:py-\[2rem\]>section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.\[\&\>section\]\:py-\[1rem\]>section {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.\[\&\>section\]\:py-\[1\.5rem\]>section {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .\[\&\>section\]\:pt-\[1\.5rem\]>section {
@@ -1336,8 +873,10 @@ body {
   padding-bottom: 2rem;
 }
 
-.\[\&\>\*\]\:z-20>* {
-  z-index: 20;
+.\[\&\>section\]\:shadow-lg>section {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .\[\&\>section\>div\>h2\]\:col-start-2>section>div>h2 {
@@ -1352,16 +891,6 @@ body {
   margin-top: -0.25rem;
 }
 
-.\[\&\>section\>div\>p\]\:text-sm>section>div>p {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.\[\&\>section\>div\>p\]\:text-xs>section>div>p {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .\[\&\>section\>div\>p\]\:text-\[0\.7rem\]>section>div>p {
   font-size: 0.7rem;
 }
@@ -1370,72 +899,12 @@ body {
   grid-row-start: 1;
 }
 
-.\[\&\>section\>div\>img\]\:row-end-2>section>div>img {
-  grid-row-end: 2;
-}
-
 .\[\&\>section\>div\>img\]\:row-end-3>section>div>img {
   grid-row-end: 3;
 }
 
-.\[\&\>section\>div\>img\]\:h-5>section>div>img {
-  height: 1.25rem;
-}
-
-.\[\&\>section\>div\>img\]\:h-10>section>div>img {
-  height: 2.5rem;
-}
-
-.\[\&\>section\>div\>img\]\:h-9>section>div>img {
-  height: 2.25rem;
-}
-
-.\[\&\>section\>div\>img\]\:h-8>section>div>img {
-  height: 2rem;
-}
-
-.\[\&\>section\>div\>img\]\:h-7>section>div>img {
-  height: 1.75rem;
-}
-
-.\[\&\>section\>div\>img\]\:h-\[1\.8rem\]>section>div>img {
-  height: 1.8rem;
-}
-
-.\[\&\>section\>div\>img\]\:h-\[1\.85rem\]>section>div>img {
-  height: 1.85rem;
-}
-
 .\[\&\>section\>div\>img\]\:h-\[1\.95rem\]>section>div>img {
   height: 1.95rem;
-}
-
-.\[\&\>section\>div\>img\]\:w-5>section>div>img {
-  width: 1.25rem;
-}
-
-.\[\&\>section\>div\>img\]\:w-10>section>div>img {
-  width: 2.5rem;
-}
-
-.\[\&\>section\>div\>img\]\:w-9>section>div>img {
-  width: 2.25rem;
-}
-
-.\[\&\>section\>div\>img\]\:w-8>section>div>img {
-  width: 2rem;
-}
-
-.\[\&\>section\>div\>img\]\:w-7>section>div>img {
-  width: 1.75rem;
-}
-
-.\[\&\>section\>div\>img\]\:w-\[1\.8rem\]>section>div>img {
-  width: 1.8rem;
-}
-
-.\[\&\>section\>div\>img\]\:w-\[1\.85rem\]>section>div>img {
-  width: 1.85rem;
 }
 
 .\[\&\>section\>div\>img\]\:w-\[1\.95rem\]>section>div>img {
@@ -1448,14 +917,4 @@ body {
 
 .\[\&\>section\>div\>img\]\:border-2>section>div>img {
   border-width: 2px;
-}
-
-.\[\&\>section\>p\]\:px-\[0\.2rem\]>section>p {
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-}
-
-.\[\&\>section\>p\]\:text-sm>section>p {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }

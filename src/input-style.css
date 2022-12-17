@@ -21,12 +21,12 @@ body {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   color: white;
-  background: #000;
+  background: hsl(219, 29%, 14%);
 }
 .attribution a {
-  color: hsl(288, 89%, 65%);
+  color: hsl(263, 55%, 70%);
 }
 
 .attribution a:hover {
-  color: hsl(287, 70%, 91%);
+  color: hsl(263, 55%, 80%);
 }
