@@ -16,22 +16,24 @@
 
     <title>Frontend Mentor | Testimonials Grid Section</title>
   </head>
-  <body class="grid min-h-screen">
+  <body class="grid min-h-screen bg-lightGray">
     <main
-      class="grid place-self-center [&>section>div]:order-1 [&>section>h1]:order-2 [&>section>blockquote]:order-3 [&>section]:grid"
+      class="grid gap-5 place-self-center px-4 py-16 md:grid-cols-4 md:grid-rows-2 [&>section>div]:order-1 [&>section>div]:grid [&>section>div]:grid-cols-[auto_auto] [&>section>div]:place-self-start [&>section>h1]:order-2 [&>section>blockquote]:order-3 [&>section]:grid [&>section]:rounded-lg [&>section]:p-6 [&>section>div>h2]:col-start-2 [&>section>div>p]:col-start-2 [&>section>div>img]:row-start-1 [&>section>div>img]:row-end-3"
     >
-      <section>
-        <h1>
+      <section
+        class="relative bg-moderateViolet md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-2"
+      >
+        <h1 class="z-20 text-white">
           I received a job offer mid-course, and the subjects I learned were
           current, if not more so, in the company I joined. I honestly feel I
           got every penny’s worth.
         </h1>
-        <div>
-          <h2>Daniel Clifford</h2>
-          <p>Verified Graduate</p>
+        <div class="z-20">
+          <h2 class="text-white">Daniel Clifford</h2>
+          <p class="text-white text-opacity-50">Verified Graduate</p>
           <img src="./image-daniel.jpg" alt="Daniel Clifford" />
         </div>
-        <blockquote>
+        <blockquote class="z-20 text-white text-opacity-70">
           “ I was an EMT for many years before I joined the bootcamp. I’ve been
           looking to make a transition and have heard some people who had an
           amazing experience here. I signed up for the free intro course and
@@ -41,52 +43,65 @@
           a Software Engineer at a VR startup. ”
         </blockquote>
         <img
+          class="absolute right-6 z-10"
           aria-hidden="true"
           src="./bg-pattern-quotation.svg"
           alt="bg pattern"
         />
       </section>
-      <section>
-        <h1>The team was very supportive and kept me motivated</h1>
+      <section
+        class="bg-veryDarkGrayishBlue md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2"
+      >
+        <h1 class="text-white">
+          The team was very supportive and kept me motivated
+        </h1>
         <div>
-          <h2>Jonathan Walters</h2>
-          <p>Verified Graduate</p>
+          <h2 class="text-white">Jonathan Walters</h2>
+          <p class="text-white text-opacity-50">Verified Graduate</p>
           <img src="./image-jonathan.jpg" alt="Jonathan Walters" />
         </div>
-        <blockquote>
+        <blockquote class="text-white text-opacity-70">
           “ I started as a total newbie with virtually no coding skills. I now
           work as a mobile engineer for a big company. This was one of the best
           investments I’ve made in myself. ”
         </blockquote>
       </section>
-      <section>
-        <h1>An overall wonderful and rewarding experience</h1>
+      <section
+        class="bg-white md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-3"
+      >
+        <h1 class="text-veryDarkGrayishBlue">
+          An overall wonderful and rewarding experience
+        </h1>
         <div>
-          <h2>Jeanette Harmon</h2>
-          <p>Verified Graduate</p>
+          <h2 class="text-veryDarkGrayishBlue">Jeanette Harmon</h2>
+          <p class="text-veryDarkGrayishBlue text-opacity-50">
+            Verified Graduate
+          </p>
           <img src="./image-jeanette.jpg" alt="Jeanette Harmon" />
         </div>
-        <blockquote>
+        <blockquote class="text-veryDarkGrayishBlue text-opacity-70">
           “ Thank you for the wonderful experience! I now have a job I really
           enjoy, and make a good living while doing something I love. ”
         </blockquote>
       </section>
-      <section>
-        <h1>
+      <section
+        class="bg-veryDarkBlackishBlue md:col-start-2 md:col-end-4 md:row-start-2 md:row-end-3"
+      >
+        <h1 class="text-white">
           Awesome teaching support from TAs who did the bootcamp themselves.
           Getting guidance from them and learning from their experiences was
           easy.
         </h1>
         <div>
-          <h2>Patrick Abrams</h2>
-          <p>Verified Graduate</p>
+          <h2 class="text-white">Patrick Abrams</h2>
+          <p class="text-white text-opacity-50">Verified Graduate</p>
           <img
             src="./image-patrick.jpg"
             alt="Patrick
     Abrams"
           />
         </div>
-        <blockquote>
+        <blockquote class="text-white text-opacity-70">
           “ The staff seem genuinely concerned about my progress which I find
           really refreshing. The program gave me the confidence necessary to be
           able to go out in the world and present myself as a capable junior
@@ -95,14 +110,20 @@
           people. ”
         </blockquote>
       </section>
-      <section>
-        <h1>Such a life-changing experience. Highly recommended!</h1>
+      <section
+        class="bg-white md:col-start-4 md:col-end-5 md:row-start-1 md:row-end-3"
+      >
+        <h1 class="text-veryDarkGrayishBlue">
+          Such a life-changing experience. Highly recommended!
+        </h1>
         <div>
-          <h2>Kira Whittle</h2>
-          <p>Verified Graduate</p>
+          <h2 class="text-veryDarkGrayishBlue">Kira Whittle</h2>
+          <p class="text-veryDarkGrayishBlue text-opacity-50">
+            Verified Graduate
+          </p>
           <img src="./image-kira.jpg" alt="Kira Whittle" />
         </div>
-        <blockquote>
+        <blockquote class="text-veryDarkGrayishBlue text-opacity-70">
           “ Before joining the bootcamp, I’ve never written a line of code. I
           needed some structure from professionals who can help me learn
           programming step by step. I was encouraged to enroll by a former

@@ -557,6 +557,82 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-start-3 {
+  grid-column-start: 3;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-start-4 {
+  grid-column-start: 4;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
+}
+
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+.col-end-2 {
+  grid-column-end: 2;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+.row-end-2 {
+  grid-row-end: 2;
+}
+
+.row-end-3 {
+  grid-row-end: 3;
+}
+
 .grid {
   display: grid;
 }
@@ -565,8 +641,78 @@ video {
   min-height: 100vh;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .place-self-center {
   place-self: center;
+}
+
+.bg-moderateViolet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(263 55% 52% / var(--tw-bg-opacity));
+}
+
+.bg-veryDarkGrayishBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 19% 35% / var(--tw-bg-opacity));
+}
+
+.bg-lightGray {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 81% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 100% 100% / var(--tw-bg-opacity));
+}
+
+.bg-veryDarkBlackishBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(219 29% 14% / var(--tw-bg-opacity));
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 100% 100% / var(--tw-text-opacity));
+}
+
+.text-veryDarkBlackishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(219 29% 14% / var(--tw-text-opacity));
+}
+
+.text-veryDarkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(217 19% 35% / var(--tw-text-opacity));
+}
+
+.text-opacity-50 {
+  --tw-text-opacity: 0.5;
+}
+
+.text-opacity-70 {
+  --tw-text-opacity: 0.7;
 }
 
 .transition {
@@ -607,8 +753,82 @@ body {
   color: hsl(287, 70%, 91%);
 }
 
+@media (min-width: 768px) {
+  .md\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .md\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .md\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .md\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .md\:col-end-3 {
+    grid-column-end: 3;
+  }
+
+  .md\:col-end-4 {
+    grid-column-end: 4;
+  }
+
+  .md\:col-end-2 {
+    grid-column-end: 2;
+  }
+
+  .md\:col-end-5 {
+    grid-column-end: 5;
+  }
+
+  .md\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .md\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .md\:row-end-2 {
+    grid-row-end: 2;
+  }
+
+  .md\:row-end-3 {
+    grid-row-end: 3;
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .\[\&\>section\>div\]\:order-1>section>div {
   order: 1;
+}
+
+.\[\&\>section\>div\]\:grid>section>div {
+  display: grid;
+}
+
+.\[\&\>section\>div\]\:grid-cols-2>section>div {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.\[\&\>section\>div\]\:grid-cols-\[auto_auto\]>section>div {
+  grid-template-columns: auto auto;
+}
+
+.\[\&\>section\>div\]\:place-self-start>section>div {
+  place-self: start;
 }
 
 .\[\&\>section\>h1\]\:order-2>section>h1 {
@@ -621,4 +841,44 @@ body {
 
 .\[\&\>section\]\:grid>section {
   display: grid;
+}
+
+.\[\&\>section\]\:rounded-xl>section {
+  border-radius: 0.75rem;
+}
+
+.\[\&\>section\]\:rounded-lg>section {
+  border-radius: 0.5rem;
+}
+
+.\[\&\>section\]\:p-5>section {
+  padding: 1.25rem;
+}
+
+.\[\&\>section\]\:p-6>section {
+  padding: 1.5rem;
+}
+
+.\[\&\>\*\]\:z-20>* {
+  z-index: 20;
+}
+
+.\[\&\>section\>div\>h2\]\:col-start-2>section>div>h2 {
+  grid-column-start: 2;
+}
+
+.\[\&\>section\>div\>p\]\:col-start-2>section>div>p {
+  grid-column-start: 2;
+}
+
+.\[\&\>section\>div\>img\]\:row-start-1>section>div>img {
+  grid-row-start: 1;
+}
+
+.\[\&\>section\>div\>img\]\:row-end-2>section>div>img {
+  grid-row-end: 2;
+}
+
+.\[\&\>section\>div\>img\]\:row-end-3>section>div>img {
+  grid-row-end: 3;
 }
