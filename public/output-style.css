@@ -645,6 +645,14 @@ video {
   gap: 1.25rem;
 }
 
+.gap-\[1\.5\] {
+  gap: 1.5;
+}
+
+.gap-\[1\.5rem\] {
+  gap: 1.5rem;
+}
+
 .place-self-center {
   place-self: center;
 }
@@ -684,12 +692,43 @@ video {
   padding-bottom: 4rem;
 }
 
+.py-\[4\.5rem\] {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.px-\[1\.5rem\] {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pr-\[1rem\] {
+  padding-right: 1rem;
+}
+
+.pr-\[1\.1rem\] {
+  padding-right: 1.1rem;
+}
+
+.pr-\[0\.3rem\] {
+  padding-right: 0.3rem;
+}
+
+.pr-\[0\.2rem\] {
+  padding-right: 0.2rem;
 }
 
 .text-white {
@@ -827,6 +866,15 @@ body {
   grid-template-columns: auto auto;
 }
 
+.\[\&\>section\>div\]\:gap-4>section>div {
+  gap: 1rem;
+}
+
+.\[\&\>section\>div\]\:gap-x-4>section>div {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
 .\[\&\>section\>div\]\:place-self-start>section>div {
   place-self: start;
 }
@@ -835,8 +883,202 @@ body {
   order: 2;
 }
 
+.\[\&\>section\>h1\]\:mt-\[3rem\]>section>h1 {
+  margin-top: 3rem;
+}
+
+.\[\&\>section\>h1\]\:mt-\[2rem\]>section>h1 {
+  margin-top: 2rem;
+}
+
+.\[\&\>section\>h1\]\:mt-\[1rem\]>section>h1 {
+  margin-top: 1rem;
+}
+
+.\[\&\>section\>h1\]\:mt-\[0\.9rem\]>section>h1 {
+  margin-top: 0.9rem;
+}
+
+.\[\&\>section\>h1\]\:mt-\[0\.85rem\]>section>h1 {
+  margin-top: 0.85rem;
+}
+
+.\[\&\>section\>h1\]\:px-\[0\.5rem\]>section>h1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.\[\&\>section\>h1\]\:px-\[0\.3rem\]>section>h1 {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.\[\&\>section\>h1\]\:px-\[0\.2rem\]>section>h1 {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.\[\&\>section\>h1\]\:pr-2>section>h1 {
+  padding-right: 0.5rem;
+}
+
+.\[\&\>section\>h1\]\:pl-\[0\.2rem\]>section>h1 {
+  padding-left: 0.2rem;
+}
+
+.\[\&\>section\>h1\]\:pr-1>section>h1 {
+  padding-right: 0.25rem;
+}
+
+.\[\&\>section\>h1\]\:pr-\[1rem\]>section>h1 {
+  padding-right: 1rem;
+}
+
+.\[\&\>section\>h1\]\:pr-\[1\.5rem\]>section>h1 {
+  padding-right: 1.5rem;
+}
+
+.\[\&\>section\>h1\]\:pr-\[0\.5rem\]>section>h1 {
+  padding-right: 0.5rem;
+}
+
+.\[\&\>section\>h1\]\:pr-\[0\.4rem\]>section>h1 {
+  padding-right: 0.4rem;
+}
+
+.\[\&\>section\>h1\]\:pr-\[0\.3rem\]>section>h1 {
+  padding-right: 0.3rem;
+}
+
+.\[\&\>section\>h1\]\:pr-\[0\.35rem\]>section>h1 {
+  padding-right: 0.35rem;
+}
+
+.\[\&\>section\>h1\]\:text-lg>section>h1 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>section\>h1\]\:text-xl>section>h1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>section\>h1\]\:leading-\[1rem\]>section>h1 {
+  line-height: 1rem;
+}
+
+.\[\&\>section\>h1\]\:leading-\[1\.5rem\]>section>h1 {
+  line-height: 1.5rem;
+}
+
+.\[\&\>section\>h1\]\:leading-\[1\.6rem\]>section>h1 {
+  line-height: 1.6rem;
+}
+
 .\[\&\>section\>blockquote\]\:order-3>section>blockquote {
   order: 3;
+}
+
+.\[\&\>section\>blockquote\]\:mt-\[1rem\]>section>blockquote {
+  margin-top: 1rem;
+}
+
+.\[\&\>section\>blockquote\]\:px-\[0\.2rem\]>section>blockquote {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.\[\&\>section\>blockquote\]\:pl-\[0\.2rem\]>section>blockquote {
+  padding-left: 0.2rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[0\.5rem\]>section>blockquote {
+  padding-right: 0.5rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[0\.6rem\]>section>blockquote {
+  padding-right: 0.6rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[0\.7rem\]>section>blockquote {
+  padding-right: 0.7rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[0\.8rem\]>section>blockquote {
+  padding-right: 0.8rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[0\.9rem\]>section>blockquote {
+  padding-right: 0.9rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[1rem\]>section>blockquote {
+  padding-right: 1rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[1\.1rem\]>section>blockquote {
+  padding-right: 1.1rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[1\.08rem\]>section>blockquote {
+  padding-right: 1.08rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[1\.05rem\]>section>blockquote {
+  padding-right: 1.05rem;
+}
+
+.\[\&\>section\>blockquote\]\:pr-\[1\.03rem\]>section>blockquote {
+  padding-right: 1.03rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1rem\]>section>blockquote {
+  line-height: 1rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.2rem\]>section>blockquote {
+  line-height: 1.2rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.15rem\]>section>blockquote {
+  line-height: 1.15rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.145rem\]>section>blockquote {
+  line-height: 1.145rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.14rem\]>section>blockquote {
+  line-height: 1.14rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.138rem\]>section>blockquote {
+  line-height: 1.138rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.137rem\]>section>blockquote {
+  line-height: 1.137rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.136rem\]>section>blockquote {
+  line-height: 1.136rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.135rem\]>section>blockquote {
+  line-height: 1.135rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.133rem\]>section>blockquote {
+  line-height: 1.133rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.131rem\]>section>blockquote {
+  line-height: 1.131rem;
+}
+
+.\[\&\>section\>blockquote\]\:leading-\[1\.13rem\]>section>blockquote {
+  line-height: 1.13rem;
 }
 
 .\[\&\>section\]\:grid>section {
@@ -859,6 +1101,59 @@ body {
   padding: 1.5rem;
 }
 
+.\[\&\>section\]\:px-\[5rem\]>section {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.\[\&\>section\]\:px-7>section {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.\[\&\>section\]\:px-8>section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.\[\&\>section\]\:px-\[1\.8rem\]>section {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+.\[\&\>section\]\:px-\[1\.85rem\]>section {
+  padding-left: 1.85rem;
+  padding-right: 1.85rem;
+}
+
+.\[\&\>section\]\:py-\[4rem\]>section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.\[\&\>section\]\:py-\[2rem\]>section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.\[\&\>section\]\:py-\[1rem\]>section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.\[\&\>section\]\:py-\[1\.5rem\]>section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.\[\&\>section\]\:pt-\[1\.5rem\]>section {
+  padding-top: 1.5rem;
+}
+
+.\[\&\>section\]\:pb-\[2rem\]>section {
+  padding-bottom: 2rem;
+}
+
 .\[\&\>\*\]\:z-20>* {
   z-index: 20;
 }
@@ -871,6 +1166,24 @@ body {
   grid-column-start: 2;
 }
 
+.\[\&\>section\>div\>p\]\:-mt-1>section>div>p {
+  margin-top: -0.25rem;
+}
+
+.\[\&\>section\>div\>p\]\:text-sm>section>div>p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.\[\&\>section\>div\>p\]\:text-xs>section>div>p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.\[\&\>section\>div\>p\]\:text-\[0\.7rem\]>section>div>p {
+  font-size: 0.7rem;
+}
+
 .\[\&\>section\>div\>img\]\:row-start-1>section>div>img {
   grid-row-start: 1;
 }
@@ -881,4 +1194,86 @@ body {
 
 .\[\&\>section\>div\>img\]\:row-end-3>section>div>img {
   grid-row-end: 3;
+}
+
+.\[\&\>section\>div\>img\]\:h-5>section>div>img {
+  height: 1.25rem;
+}
+
+.\[\&\>section\>div\>img\]\:h-10>section>div>img {
+  height: 2.5rem;
+}
+
+.\[\&\>section\>div\>img\]\:h-9>section>div>img {
+  height: 2.25rem;
+}
+
+.\[\&\>section\>div\>img\]\:h-8>section>div>img {
+  height: 2rem;
+}
+
+.\[\&\>section\>div\>img\]\:h-7>section>div>img {
+  height: 1.75rem;
+}
+
+.\[\&\>section\>div\>img\]\:h-\[1\.8rem\]>section>div>img {
+  height: 1.8rem;
+}
+
+.\[\&\>section\>div\>img\]\:h-\[1\.85rem\]>section>div>img {
+  height: 1.85rem;
+}
+
+.\[\&\>section\>div\>img\]\:h-\[1\.95rem\]>section>div>img {
+  height: 1.95rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-5>section>div>img {
+  width: 1.25rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-10>section>div>img {
+  width: 2.5rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-9>section>div>img {
+  width: 2.25rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-8>section>div>img {
+  width: 2rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-7>section>div>img {
+  width: 1.75rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-\[1\.8rem\]>section>div>img {
+  width: 1.8rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-\[1\.85rem\]>section>div>img {
+  width: 1.85rem;
+}
+
+.\[\&\>section\>div\>img\]\:w-\[1\.95rem\]>section>div>img {
+  width: 1.95rem;
+}
+
+.\[\&\>section\>div\>img\]\:rounded-full>section>div>img {
+  border-radius: 9999px;
+}
+
+.\[\&\>section\>div\>img\]\:border-2>section>div>img {
+  border-width: 2px;
+}
+
+.\[\&\>section\>p\]\:px-\[0\.2rem\]>section>p {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.\[\&\>section\>p\]\:text-sm>section>p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
