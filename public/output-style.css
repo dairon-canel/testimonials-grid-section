@@ -577,6 +577,14 @@ video {
   z-index: 10;
 }
 
+.order-2 {
+  order: 2;
+}
+
+.mt-\[1rem\] {
+  margin-top: 1rem;
+}
+
 .grid {
   display: grid;
 }
@@ -658,6 +666,14 @@ video {
 
 .pr-\[0\.2rem\] {
   padding-right: 0.2rem;
+}
+
+.pl-\[0\.2rem\] {
+  padding-left: 0.2rem;
+}
+
+.pr-\[0\.35rem\] {
+  padding-right: 0.35rem;
 }
 
 .text-white {
@@ -790,6 +806,80 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:right-\[5\.5rem\] {
+    right: 5.5rem;
+  }
+
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .lg\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .lg\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .lg\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .lg\:col-end-3 {
+    grid-column-end: 3;
+  }
+
+  .lg\:col-end-4 {
+    grid-column-end: 4;
+  }
+
+  .lg\:col-end-2 {
+    grid-column-end: 2;
+  }
+
+  .lg\:col-end-5 {
+    grid-column-end: 5;
+  }
+
+  .lg\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .lg\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .lg\:row-end-2 {
+    grid-row-end: 2;
+  }
+
+  .lg\:row-end-3 {
+    grid-row-end: 3;
+  }
+
+  .lg\:max-w-\[72\.5rem\] {
+    max-width: 72.5rem;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-\[auto_auto\] {
+    grid-template-rows: auto auto;
+  }
+
+  .lg\:pr-\[0\.5rem\] {
+    padding-right: 0.5rem;
+  }
+
+  .lg\:pr-\[0\.6rem\] {
+    padding-right: 0.6rem;
+  }
+}
+
 .\[\&\>section\>div\]\:order-1>section>div {
   order: 1;
 }
@@ -917,4 +1007,33 @@ body {
 
 .\[\&\>section\>div\>img\]\:border-2>section>div>img {
   border-width: 2px;
+}
+
+.\[\&\>section\>h2\]\:order-2>section>h2 {
+  order: 2;
+}
+
+.\[\&\>section\>h2\]\:mt-\[1rem\]>section>h2 {
+  margin-top: 1rem;
+}
+
+.\[\&\>section\>h2\]\:pl-\[0\.2rem\]>section>h2 {
+  padding-left: 0.2rem;
+}
+
+.\[\&\>section\>h2\]\:pr-\[0\.35rem\]>section>h2 {
+  padding-right: 0.35rem;
+}
+
+.\[\&\>section\>h2\]\:text-xl>section>h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>section\>h2\]\:leading-\[1\.5rem\]>section>h2 {
+  line-height: 1.5rem;
+}
+
+.\[\&\>section\>div\>h3\]\:col-start-2>section>div>h3 {
+  grid-column-start: 2;
 }
