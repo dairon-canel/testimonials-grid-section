@@ -581,6 +581,10 @@ video {
   order: 2;
 }
 
+.col-start-2 {
+  grid-column-start: 2;
+}
+
 .mt-\[1rem\] {
   margin-top: 1rem;
 }
